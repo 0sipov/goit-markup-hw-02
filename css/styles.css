@@ -2,13 +2,68 @@
 primery title text(black)      #212121
 primery text(grey)             #757575
 white                          #FFFFFF
+black                          #000000
 accent(blue)                   #2196F3
-mail and tel                   255, 255, 255, 0.6
+transparent white              255, 255, 255, 0.6
  */
-root {
+:root {
   --primery-title-text-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196f3;
   --white-color: #ffffff;
-  --mail-tel-color: rgba(255, 255, 255, 0.6);
+  --black-color: #000000;
+  --mail-tel-color: rgba(255, 255, 255, 1);
+}
+body {
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primery-title-text-color);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* Header */
+/* Logo */
+.logo {
+  color: var(--black-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo > span {
+  color: var(--accent-color);
+}
+/* Site navigation */
+.site-nav a {
+  color: var(--primery-title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+/* Mail and tel */
+.header-mail-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.header-mail-tel:hover,
+.header-mail-tel:focus {
+  color: var(--accent-color);
 }
