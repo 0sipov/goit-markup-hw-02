@@ -10,12 +10,13 @@ transparent white              255, 255, 255, 0.6
   --primery-title-text-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196f3;
-  --white-color: #ffffff;
+  --secondary-color: #ffffff;
   --black-color: #000000;
   --mail-tel-color: rgba(255, 255, 255, 1);
 }
 body {
   color: var(--primary-text-color);
+  background-color: #ffffff;
   font-family: roboto, sans-serif;
   font-style: normal;
 }
@@ -26,6 +27,13 @@ h4,
 h5,
 h6 {
   color: var(--primery-title-text-color);
+}
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 a {
   color: inherit;
@@ -57,7 +65,7 @@ ul {
 .site-nav a:focus {
   color: var(--accent-color);
 }
-/* Mail and tel */
+/* Mail and tel header */
 .header-mail-tel {
   font-weight: 500;
   font-size: 14px;
@@ -67,3 +75,65 @@ ul {
 .header-mail-tel:focus {
   color: var(--accent-color);
 }
+/* Main index.html */
+/* Hero */
+.hero {
+  background-image: url(../images/main/hero_bg.jpg);
+}
+.hero h1 {
+  color: var(--secondary-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hero a {
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+  text-align: center;
+}
+/* Our advantages */
+.advantages > h2 {
+  display: none;
+}
+.advantages h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* What we can */
+.we-can p {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* Our team */
+.team h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.team p {
+  font-size: 16px;
+  line-height: 1.2;
+}
+/* Our clients */
+/* Main portfolio.html */
+/* Works */
+/* Footer */
+/* Contacts */
+/* Call */
+/* Subscription */
