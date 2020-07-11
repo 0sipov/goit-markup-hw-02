@@ -1,0 +1,14 @@
+/* Colors
+primery title text(black)      #212121
+primery text(grey)             #757575
+white                          #FFFFFF
+accent(blue)                   #2196F3
+mail and tel                   255, 255, 255, 0.6
+ */
+root {
+  --primery-title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --mail-tel-color: rgba(255, 255, 255, 0.6);
+}
