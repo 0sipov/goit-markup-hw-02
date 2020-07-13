@@ -4,6 +4,7 @@ primery text(grey)             #757575
 white                          #FFFFFF
 black                          #000000
 accent(blue)                   #2196F3
+buttons                        #F5F4FA
 transparent white              255, 255, 255, 0.6
  */
 :root {
@@ -83,7 +84,7 @@ ul {
 .hero h1 {
   color: var(--secondary-color);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -131,9 +132,28 @@ ul {
   line-height: 1.2;
 }
 /* Our clients */
+/*  */
 /* Main portfolio.html */
+/* Portfolio */
+.portfolio-filter-button {
+  border: none;
+  background-color: #f5f4fa;
+  color: var(--primery-title-text-color);
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+.portfolio-filter-button:hover {
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+}
+
 /* Works */
 /* Footer */
+/*  */
 /* Contacts */
 /* Call */
 /* Subscription */
