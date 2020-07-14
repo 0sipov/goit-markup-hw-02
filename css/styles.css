@@ -166,7 +166,7 @@ address {
   line-height: 1.63;
   text-align: center;
 }
-.portfolio-filter-button:hover
+.portfolio-filter-button:hover,  
 .portfolio-filter-button:focus {
   color: var(--secondary-color);
   background-color: var(--accent-color);
