@@ -16,12 +16,21 @@ transparent white              255, 255, 255, 0.6
   --mail-tel-color: rgba(255, 255, 255, 1);
   --buttons-color: #f5f4fa;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 body {
   color: var(--primary-text-color);
   background-color: #ffffff;
   font-family: roboto, sans-serif;
   font-style: normal;
   letter-spacing: 0.03;
+  margin: 0;
 }
 h1,
 h2,
